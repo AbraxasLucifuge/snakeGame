@@ -13,6 +13,10 @@ let rows,cols;
 let gameStatus = false;
 let score = 0;
 let highScore = localStorage.getItem("highScore");
+if(!highScore){
+    localStorage.setItem("highScore",score);
+    highScore = localStoeage.getItem("highScore");
+}
 document.querySelector('.high-score').innerHTML=`${highScore}`;
 function checkHighScore(score){
     if(!highScore){
