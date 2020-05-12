@@ -20,7 +20,7 @@ body{
     font-family: 'Gochi Hand', 'sans-serif';
     padding: 1rem 0;
     overflow: hidden;
-    background-image: url(/bg.jpg);
+    background-image: url(https://raw.githubusercontent.com/AbraxasLucifuge/snakeGame/master/bg.jpg);
     background-size: cover;
 }
 
