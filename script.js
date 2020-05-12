@@ -15,7 +15,7 @@ let score = 0;
 let highScore = localStorage.getItem("highScore");
 if(!highScore){
     localStorage.setItem("highScore",score);
-    highScore = localStoeage.getItem("highScore");
+    highScore = localStorage.getItem("highScore");
 }
 document.querySelector('.high-score').innerHTML=`${highScore}`;
 function checkHighScore(score){
